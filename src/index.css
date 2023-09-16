@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-grey);
+}
+
+:root {
+  --color-blue: #7c3aed;
+  --color-grey: #e2e8f0;
+  --color-light-black: #455367;
+  --color-custom-white: #f2f5f9;
+  --color-light-green: #a7f3d0;
+  --color-dark-green: #00563e;
+  --color-yellow: #fce68a;
+  --color-pink: #fecdd2;
+  --color-red: #ef6f83;
+  --color-brown: #8d3805;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
